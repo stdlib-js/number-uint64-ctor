@@ -49,7 +49,7 @@
     "@stdlib/bigint-ctor": "^0.2.3",
     "@stdlib/constants-float64-max-safe-integer": "^0.2.3",
     "@stdlib/constants-uint32-max": "^0.2.3",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/string-left-pad": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
