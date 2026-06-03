@@ -49,6 +49,7 @@
     "@stdlib/bigint-ctor": "^0.2.3",
     "@stdlib/constants-float64-max-safe-integer": "^0.2.3",
     "@stdlib/constants-uint32-max": "^0.2.3",
+    "@stdlib/number-ctor": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-left-pad": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
@@ -58,7 +59,6 @@
   "devDependencies": {
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
-    "@stdlib/number-ctor": "^0.2.3",
     "@stdlib/random-array-discrete-uniform": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
