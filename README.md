@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Unsigned 64-bit integer.
+> 64-bit unsigned integer.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -45,43 +45,37 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-uint64-ctor
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-Uint64 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var Uint64 = require( 'path/to/vendor/umd/number-uint64-ctor/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.Uint64;
-})();
-</script>
+var Uint64 = require( '@stdlib/number-uint64-ctor' );
 ```
 
 #### Uint64( value )
 
-Unsigned 64-bit integer constructor.
+64-bit unsigned integer constructor.
 
 ```javascript
 var x = new Uint64( 5 );
@@ -134,7 +128,7 @@ var nbytes = x.byteLength;
 
 #### Uint64.prototype.hi
 
-High 32-bit word of an unsigned 64-bit integer.
+High 32-bit word of a 64-bit unsigned integer.
 
 ```javascript
 var x = Uint64.from( [ 1234, 5678 ] );
@@ -145,7 +139,7 @@ var w = x.hi;
 
 #### Uint64.prototype.lo
 
-Low 32-bit word of an unsigned 64-bit integer.
+Low 32-bit word of a 64-bit unsigned integer.
 
 ```javascript
 var x = Uint64.from( [ 1234, 5678 ] );
@@ -162,7 +156,7 @@ var w = x.lo;
 
 #### Uint64.from( array )
 
-Creates a new unsigned 64-bit integer from an array-like object containing a high and low word.
+Creates a new 64-bit unsigned integer from an array-like object containing a high and low word.
 
 ```javascript
 var x = Uint64.from( [ 1234, 5678 ] );
@@ -171,7 +165,7 @@ var x = Uint64.from( [ 1234, 5678 ] );
 
 #### Uint64.of( high, low )
 
-Creates a new unsigned 64-bit integer from a high and low word.
+Creates a new 64-bit unsigned integer from a high and low word.
 
 ```javascript
 var x = Uint64.of( 1234, 5678 );
@@ -180,7 +174,7 @@ var x = Uint64.of( 1234, 5678 );
 
 ### Accessor Methods
 
-These methods do **not** mutate a `Uint64` instance and, instead, return an unsigned 64-bit integer representation.
+These methods do **not** mutate a `Uint64` instance and, instead, return a 64-bit unsigned integer representation.
 
 #### Uint64.prototype.toString()
 
@@ -228,7 +222,7 @@ var v = x.valueOf();
 
 ## Notes
 
--   An unsigned 64-bit integer has a range of \[`0`, `2^64-1`\].
+-   A 64-bit unsigned integer has a range of \[`0`, `2^64-1`\].
 
 </section>
 
@@ -244,13 +238,8 @@ var v = x.valueOf();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Uint64 = require( '@stdlib/number-uint64-ctor' );
 
 var x = new Uint64( 1234 );
 
@@ -262,11 +251,6 @@ console.log( 'str: %s', x );
 
 console.log( 'JSON: %s', JSON.stringify( x ) );
 // => 'JSON: {"type":"Uint64","words":[0,1234]}'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -368,7 +352,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-json-parse]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
-[@stdlib/number/uint64/reviver]: https://github.com/stdlib-js/number-uint64-reviver/tree/umd
+[@stdlib/number/uint64/reviver]: https://github.com/stdlib-js/number-uint64-reviver
 
 <!-- <related-links> -->
 
