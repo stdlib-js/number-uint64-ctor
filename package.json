@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/number-uint64-ctor",
   "version": "0.0.0",
-  "description": "Unsigned 64-bit integer.",
+  "description": "64-bit unsigned integer.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -40,6 +40,7 @@
     "@stdlib/array-base-join": "^0.1.2",
     "@stdlib/array-uint32": "^0.2.3",
     "@stdlib/assert-has-bigint-support": "^0.2.3",
+    "@stdlib/assert-has-to-primitive-symbol-support": "^0.1.1",
     "@stdlib/assert-is-between": "^0.2.3",
     "@stdlib/assert-is-bigint": "^0.2.4",
     "@stdlib/assert-is-collection": "^0.2.3",
@@ -52,6 +53,7 @@
     "@stdlib/number-ctor": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-left-pad": "^0.2.3",
+    "@stdlib/symbol-to-primitive": "^0.1.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
