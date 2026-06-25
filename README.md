@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-uint64-ctor/tags). For example,
+
+```javascript
 import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@v0.0.0-esm/index.mjs';
 ```
 
@@ -226,7 +231,7 @@ var v = x.valueOf();
 <body>
 <script type="module">
 
-import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@v0.0.0-esm/index.mjs';
+import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@esm/index.mjs';
 
 var x = new Uint64( 1234 );
 
