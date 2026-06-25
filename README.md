@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@deno/mod.js';
+import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@v0.0.0-deno/mod.js';
 ```
 
 #### Uint64( value )
@@ -221,7 +221,7 @@ var v = x.valueOf();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@deno/mod.js';
+import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@v0.0.0-deno/mod.js';
 
 var x = new Uint64( 1234 );
 
