@@ -222,7 +222,7 @@ var v = x.valueOf();
 
 ## Notes
 
--   A 64-bit unsigned integer has a range of \[`0`, `2^64-1`\].
+-   A 64-bit unsigned integer has a range of \[`0`, `2^64-1`].
 
 </section>
 
@@ -257,7 +257,6 @@ console.log( 'JSON: %s', JSON.stringify( x ) );
 
 <!-- /.examples -->
 
-
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="references">
@@ -269,6 +268,12 @@ console.log( 'JSON: %s', JSON.stringify( x ) );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/number-ctor`][@stdlib/number/ctor]</span><span class="delimiter">: </span><span class="description">number constructor.</span>
 
 </section>
 
@@ -355,6 +360,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/number/uint64/reviver]: https://github.com/stdlib-js/number-uint64-reviver
 
 <!-- <related-links> -->
+
+[@stdlib/number/ctor]: https://github.com/stdlib-js/number-ctor
 
 <!-- </related-links> -->
 
