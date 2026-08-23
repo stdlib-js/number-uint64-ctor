@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-14)
+## Unreleased (2026-08-23)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`84d5ddf`](https://github.com/stdlib-js/stdlib/commit/84d5ddf9370fb2ef1a1338fecefc83908fcb9faf) - **docs:** update related packages sections [(#14546)](https://github.com/stdlib-js/stdlib/pull/14546) _(by stdlib-bot)_
 -   [`b18a134`](https://github.com/stdlib-js/stdlib/commit/b18a134a47895fc3e56018929222d356d3ef10c2) - **docs:** update related packages sections [(#13397)](https://github.com/stdlib-js/stdlib/pull/13397) _(by stdlib-bot)_
 -   [`26ebabf`](https://github.com/stdlib-js/stdlib/commit/26ebabf114831bf8529674992fb78b4a551f4d40) - **test:** update tests in `number/uint64/ctor` [(#13294)](https://github.com/stdlib-js/stdlib/pull/13294) _(by Abdul Kaium)_
 -   [`7dc9808`](https://github.com/stdlib-js/stdlib/commit/7dc98086e9503556dc548aa2e4899f299c12999f) - **docs:** fix examples, notes, and return description [(#13151)](https://github.com/stdlib-js/stdlib/pull/13151) _(by Philipp Burckhardt)_
