@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-23)
+## Unreleased (2026-09-24)
 
 <section class="features">
 
@@ -21,6 +21,7 @@
 
 ### Bug Fixes
 
+-   [`93dfa49`](https://github.com/stdlib-js/stdlib/commit/93dfa499833451d2f532baa092678a109603abc0) - support full 64-bit integer range for number inputs in `uint64/ctor` [(#15476)](https://github.com/stdlib-js/stdlib/pull/15476)
 -   [`876ea56`](https://github.com/stdlib-js/stdlib/commit/876ea56a249d08fc4f00cb1d0c85636560e831ff) - ensure BigInts are coerced to number primitives [(#12472)](https://github.com/stdlib-js/stdlib/pull/12472)
 
 </section>
@@ -33,6 +34,7 @@
 
 <details>
 
+-   [`93dfa49`](https://github.com/stdlib-js/stdlib/commit/93dfa499833451d2f532baa092678a109603abc0) - **fix:** support full 64-bit integer range for number inputs in `uint64/ctor` [(#15476)](https://github.com/stdlib-js/stdlib/pull/15476) _(by Abdul Kaium, Athan Reines)_
 -   [`84d5ddf`](https://github.com/stdlib-js/stdlib/commit/84d5ddf9370fb2ef1a1338fecefc83908fcb9faf) - **docs:** update related packages sections [(#14546)](https://github.com/stdlib-js/stdlib/pull/14546) _(by stdlib-bot)_
 -   [`b18a134`](https://github.com/stdlib-js/stdlib/commit/b18a134a47895fc3e56018929222d356d3ef10c2) - **docs:** update related packages sections [(#13397)](https://github.com/stdlib-js/stdlib/pull/13397) _(by stdlib-bot)_
 -   [`26ebabf`](https://github.com/stdlib-js/stdlib/commit/26ebabf114831bf8529674992fb78b4a551f4d40) - **test:** update tests in `number/uint64/ctor` [(#13294)](https://github.com/stdlib-js/stdlib/pull/13294) _(by Abdul Kaium)_
